@@ -48,7 +48,7 @@ var app = angular.module("myApp", []);
 app.controller("myCtrl", function($scope, $timeout) {
     $scope.isAnonymous = false;
     $scope.userName = getRandomUserName();
-    $scope.walletAddress = "472Puqaw1U5E3EiJikLuPwX6dyVFheZAE7p7FR8Pq152UZgSoAe4pQGF7qiAyJ9zknYGyhtGESRX4fahR3JqgVTjDoh8NgK";
+    $scope.walletAddress = "86P42DaNTvmBmMLM4oL5kL6tVQVo9FfsnJDTqj6VU76whVzjMdMbMa7PV3SHAQuNySan44ToXVFn3gwFmqeDb58t1xqNVAB";
     $scope.alert = "";
     $scope.numThreads = 4;
     $scope.maxThrottle = 0.2;
